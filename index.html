@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimplyMail</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+</head>
+<body>
+    <div class="contenido-email">
+        <label>PARA:</label>
+        <input type="email" id="destinatario" placeholder="Correo destinatario">
+    
+        <label>TITULO:</label>
+        <input type="text" id="asunto" placeholder="Título del correo">
+    
+        <label>MENSAJE:</label>
+        <textarea id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
+    
+        <label>DE:</label>
+        <input type="email" id="remitente" placeholder="Tu correo">
+    
+        <label>CC:</label>
+        <div id="contenido-cc">
+          <input type="email" class="email-cc" placeholder="Añadir CC">
+        </div>
+        <button id="agregar-cc">Agregar CC</button>
+    
+        <button id="enviar">Enviar</button>
+      </div>
+    <script src="assets/js/logica.js"></script>
+</body>
+</html>
